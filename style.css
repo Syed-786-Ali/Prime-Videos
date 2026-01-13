@@ -1,0 +1,121 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#0f171e;
+    color:white;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:#1b2530;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#00a8e1;
+}
+
+.header nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight: 600;
+}
+
+.header nav a:hover{
+    color:#00a8e1;
+    background-color: white;
+    
+
+}
+
+
+.hero{
+    height:70vh;
+    background:linear-gradient(to right, rgba(0,0,0,0.8), transparent),
+    url("images/hero.jpg") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    padding:50px;
+}
+
+.hero-content h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    margin-bottom:20px;
+    color:#ccc;
+}
+
+.btn{
+    padding:12px 25px;
+    background:#00a8e1;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.btn:hover{
+    background:#008bbd;
+}
+
+
+.row{
+    padding:30px 40px;
+}
+
+.row h2{
+    margin-bottom:15px;
+}
+
+.movie-row{
+    display:flex;
+    gap:15px;
+    overflow-x:auto;
+}
+
+.movie-row img{
+    width:220px;
+    border-radius:8px;
+    transition:0.4s;
+}
+
+.movie-row img:hover{
+    transform:scale(1.1);
+}
+
+
+.footer{
+    background:#1b2530;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:#aaa;
+}
+
+
+@media(max-width:768px){
+    .hero-content h1{
+        font-size:32px;
+    }
+    .movie-row img{
+        width:160px;
+    }
+}
