@@ -46,7 +46,7 @@ body{
 .hero{
     height:70vh;
     background:linear-gradient(to right, rgba(0,0,0,0.8), transparent),
-    url("images/hero.jpg") center/cover no-repeat;
+    url("./img/amzon\ front\ page.webp") center/cover no-repeat;
     display:flex;
     align-items:center;
     padding:50px;
